@@ -169,3 +169,12 @@ $ git pull origin feature-D
 ```
 *将本地的feature-D分支更新到远程仓库的最新状态*
 
+#####git fetch
+从远程获取代码库
+```
+$ git remote add upstream git://github.com/octocat/Spoon-Knife.git
+$ git fetch upstream
+$ git merge upstream/master
+```
+*用远程代码库更新本地仓库*
+
